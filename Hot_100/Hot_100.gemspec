@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "daily_q/version"
+require "Hot_100/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "daily_q"
-  spec.version       = DailyQ::VERSION
+  spec.name          = "Hot_100"
+  spec.version       = Hot100::VERSION
   spec.authors       = ["'Luis Herrera'"]
   spec.email         = ["'herrera.lrh@gmail.com'"]
 
@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end

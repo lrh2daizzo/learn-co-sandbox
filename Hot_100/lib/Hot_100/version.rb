@@ -1,3 +1,3 @@
-module DailyQ
+module Hot100
   VERSION = "0.1.0"
 end
